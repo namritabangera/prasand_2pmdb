@@ -1,0 +1,121 @@
+Introduction to MySQL & MongoDB:
+requirements: laptop,passion to learn
+Duration: Just 4 weeks
+Content: 
+MySQL:
+
+Introduction,DDL,DML,DCL,TCL,DQL,JOINS,agreegate fn,contraints,views,functions,stored procedures,sub queries
+Project: Data analysis project using MySQL
+MongoDB:  schemas, dbs,documents,crud operations,atlas,backup,indexes etc..,
+project: nodejs+mongodb
+class timings: 2.05 -2.10  ---3.40-3.45
+
+----------------------------------------------MYSQL
+--------------------------------------------------------------------------------------------------------
+1. what is database?
+   Database is  where the data is stored. Here we can store and recover our data securily.
+To manage databases, we use DBMS(database management system).
+There are several Types of DBMS:
+    I. file management system: Here database connects as files
+      eg: MS access
+    problems:  1. large aount of data cannot be stored
+                      2.  lot of time for queries
+                      3. redundancy(repetition)
+
+   2. Relational Database Management System:
+        Here data stores in the form of tables and each table maintains relationship with other table.
+    advantages: 1. no redundancy
+                        2. data will be organized and faster for queries
+                        3. small and medium level enterprises
+    disadvantages: 1. large amount of data maintainence will be difficult
+                             2. unstructured data/schema-less(non-structured) cannot be entered.
+
+   3. NoSQL: it stores the data in the form of trees,graphs,nodes,documents etc..,
+    
+2. what is the difference between DBMS and RDBMS?
+     DBMS store the data in files and rdbms stores the data in tables
+     DBMS have no relations and RDBMS tables are related /connected to each other
+     DBMS have redundancy and RDBMS have no redundancy
+     DBMS is used for single user or small group of people
+     RDBMS is used for small or medium enterprises
+3. what is SQL,mySQL and difference?
+    SQL(structured Query Language) is a language used to write queries for RDBMS. Instructions/commands given to DBMS to perform a task is called query.  
+MySQL is tool which uses SQL to perform various operations to databases
+Eg: facebook, wordpress,joomla etc..,
+alternatives: oracle,postgresql,sql lite,mssql server etc..,
+4. Terminologies such as client vs server, schema etc..,
+   Web or internet works with client-server model
+   schema means structure
+     Eg: Every student enters 
+     SID  SNAME  EMAIL PHONE
+     
+5. How to install MySQL?
+    
+   step1: Goto Google type, "mysql free download"
+   step 2: Goto https://www.mysql.com/downloads/ and mysql community GPL downloads
+   step 3: select mysql installer for windows
+   step 4: select second option and download
+   step 5: no thanks, just download
+   step 6. Goto downloaded file, double click
+   step 7: allow permission (yes)
+   step 8: select 'full' and next and execute
+   step 9: setup 'server' and set password and confirm
+   step 10: setup router with password
+
+mySQL can be interacted by 
+  i. GUI Tool (workbench): workbench is graphical user interface tool to interact with mySQL server and it is easy to understand and maintain
+  ii. command line client: command line client is command line interface tool to interact with mySQL server and it takes time to master since everything needs to be in commands.
+  
+basic commands to create and delete databases are:
+1. create DB: create database database-name;
+2. delete DB: drop database database-name;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
