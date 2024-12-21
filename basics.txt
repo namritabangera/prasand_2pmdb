@@ -1,0 +1,41 @@
+-- 20/12/2024---
+mySQL: mySQL is a dbms which is used to manage RDBMS using SQL. we can use workbench(a GUI Tool) to connect mySQL server
+A Query is a command to database in SQL to perform certain tasks on database
+In mySQL, Queries were divided  as sub languages
+  i. DDL(Data Definition language): These commands are used to create database or table structure like CREATE,DROP,ALTER,TRUNCATE etc..,
+  ii. DML(Data Manipulation Language): These commands are used to manipulate data like INSERT,DELETE,UPDATE etc..,
+ iii. DQL(Data Query Language): These commands are used to write queries like select 
+  iv. TCL(Transactional control language): These commands are used to control the transactions like rollback,savepoint,commit
+   v. DCL(Data Control language): These commands are used to manipulate permissions or access rights to the data like GRANT,REVOKE etc..,
+
+
+MySQL DataTypes:
+Datatypes defines the type of data it holds. fundamental data types are:
+   1. int: int is used for numerical integers
+   2. decimal(M,D): stores the real numbers upto M digits including decimals with D decimal places
+   eg: decimal(5,2) --2.41,2.4, 241.2
+   3. varchar(n): used to store string values upto n size
+   eg: name varchar(20) -- raj,prasad,xyz
+   4. char(n) : used to store string values with fixed n size
+   eg: name char(3)  -- raj, ram ,tom, rani
+        char(4) and varchar(4)  -- rani
+              rani           rani
+    raj -invalid            raj-valid
+   5. Date : date is used to store the date in YYYY-MM-DD
+        now()  -- used to bring current date and time
+       Time: stores the time in HH:MM:SS format
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

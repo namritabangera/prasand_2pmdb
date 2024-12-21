@@ -1,0 +1,25 @@
+-- 21/12/2024
+-- open the workbench, create new SQL script file
+DDL commands:
+ Data Definition language commands are used to create,alter or drop the data.
+ i. Create: create is a command used to create database,table,view,index or trigger etc..,
+   DB: create database database-name;
+ run db/select db: use database-name;
+   Table: Tables are used to represent the data in rows and columns. rows are called records. columns are also called fields
+   create table table-name (column-name1 data_type constraint,column-name2 data_type constraint etc..,)
+ ii. ALTER:  alter is used to change columns or their types or the structure of table
+    ADD column:  alter table table-name add column-name datatype;
+    DROP column: alter table table-name drop column column-name;
+    change column type: 
+              alter table table-name modify column-name new_datatype;
+    renaming columns:
+             alter table table-name  rename column old_name to new_name
+    
+
+
+
+
+
+
+
+
