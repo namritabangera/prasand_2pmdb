@@ -13,5 +13,5 @@
 -- change the data type 
 -- alter table students modify sname varchar(30)
 -- rename the column
-alter table students 
-rename column dob to date_of_birth
+-- alter table students 
+-- rename column dob to date_of_birth

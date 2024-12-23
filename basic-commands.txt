@@ -14,7 +14,46 @@ DDL commands:
               alter table table-name modify column-name new_datatype;
     renaming columns:
              alter table table-name  rename column old_name to new_name
-    
+  iii. drop: drop is used to delte whole element completely.
+       table: drop table tablename;
+       database:  drop database databasename
+  iv. truncate: truncate is used to remove  only the data(all the rows data) but it will leave
+      the   structure intact
+    truncate table tablename
+  v.  rename: we can rename tables/columns using rename 
+   rename table students to stdnts
+
+
+DML(Data manipulation language) : DML is used to manipulate the data using commands like  INSERT,UPDATE,DELETE.
+i. Insert: Insert is used to insert new rows into a table
+  single row: INSERT INTO TABLE-NAME values ROWS(All columns data)
+  multiple rows: Insert into table-name values (one row data),(one row data) etc..,
+ specific fields insertion: insert into table-name  (col1,col2.,..) values(col1_value,col2_value...,)
+ii. Delete: Delete is used to remove records or rows in a table based on condition;
+  delete from table-name
+  where condition;
+iii. update: update is used to modify existing data
+update tablename
+set column1=value1,column2=value2,...
+where condition;
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
