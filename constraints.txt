@@ -1,0 +1,15 @@
+constraints:
+constraints are the rules that enforce data integrity within in a table. 
+  i. not null: ensures that a olumn cannot have a null value
+  ii. unique: ensures that all values in a column are unique
+  iii. check : defines a condition that all rows in a must 
+satisfy
+  iv. default: specifies a default value for a column if no value is provided
+  v. primary-key: uniquely identifies each record in a table
+                            i.e., unique+not null
+ vi. foreign key: foreign keys are used as a bridge between the tables that references primary key in another table
+
+
+
+
+  

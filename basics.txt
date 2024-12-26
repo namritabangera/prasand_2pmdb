@@ -17,7 +17,7 @@ Datatypes defines the type of data it holds. fundamental data types are:
    3. varchar(n): used to store string values upto n size
    eg: name varchar(20) -- raj,prasad,xyz
    4. char(n) : used to store string values with fixed n size
-   eg: name char(3)  -- raj, ram ,tom, rani
+   eg: name char(3)  -- raj, ram ,tom
         char(4) and varchar(4)  -- rani
               rani           rani
     raj -invalid            raj-valid

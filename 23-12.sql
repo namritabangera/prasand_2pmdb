@@ -32,7 +32,14 @@
 -- delete from stdnts
 -- where gender="F";
 -- set SQL_SAFE_UPDATES=FALSE;
-update stdnts
-set sname="seethayya",gender="M"
-where sid=248;
+-- update stdnts
+-- set sname="seethayya",gender="M"
+-- where sid=248;
+-- show databases;
+-- drop database school
+
+
+
+
+
 
