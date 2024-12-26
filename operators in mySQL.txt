@@ -1,0 +1,26 @@
+operators in mySQL:
+There are different types of operators in mySQL, such as:
+  i. Arithematic Operators: Arithematic operators are used to find results of arithematic calculation
+   +,- ,*,/,%
+  ii. Relational Operators: These operators are used to find results of comparison
+  =,>,>=,<,<=,<>(!=)
+ iii. logical operators: These operators are used to find results based on multiple conditions
+  AND , OR, NOT
+ iv. string operators: string operators are used to perform operations on strings
+    LIKE : used for pattern matching in strings
+       -- % means any number of any characters
+       --  _ means any single character 
+ v. between operator: checks if a value exists within a specific range
+ vi. in operator: checks if a value exists within the list of values
+ vii. IS NULL: checks whether given field is null or not
+ viii. IS NOT NULL: checks whether given fiels is not null or not
+
+
+
+
+
+
+
+
+
+  

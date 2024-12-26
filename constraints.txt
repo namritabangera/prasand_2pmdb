@@ -1,6 +1,6 @@
 constraints:
 constraints are the rules that enforce data integrity within in a table. 
-  i. not null: ensures that a olumn cannot have a null value
+  i. not null: ensures that a column cannot have a null value
   ii. unique: ensures that all values in a column are unique
   iii. check : defines a condition that all rows in a must 
 satisfy
