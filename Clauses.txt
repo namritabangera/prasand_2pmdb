@@ -16,6 +16,19 @@ Clauses: clauses specify certain conditions/instructions to retrieve the data fr
      iii. avg : avg is used to specify the total average of values of records in that group
      iv. max : max is used to specify the maximum value of record in that group
     v. min: min is used to specify the minimum value of record in that group
+    vi. group_concat : group concat is used to group all the individual values of that group
+
+having: having is condition by which data will be filtered after grouping the data
+having can also work with agreegate functions
+
+distinct: distinct is used to print unique value
+
+
+
+
+
+
+
 
 
 
