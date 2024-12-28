@@ -1,0 +1,29 @@
+Clauses: clauses specify certain conditions/instructions to retrieve the data from database or to manage the data from database or to orangise the data from database
+   i. select: select specifies the data to show in the result
+   ii. from: from specifies the table from which data will come
+   iii. where: where specifies the condition by which data will be retrieved
+   iv. order by: order by specifies the order by which the result
+  will be shown, by default its ascending.we can specify   descending order by adding "desc"
+  order by column-name desc;
+ v. LIMIT: limit is used to specify the limit of the result
+   limit number;
+  we can skip certain number using 'offset'
+ vi. group by: group by is used to group the records and bring
+   some agreegated result. we can get agreegated result by 
+   agreegate functions
+        i. count : count is used specify the total number of records in that group
+       ii. sum : sum is used to specify the total sum values of records in that group
+     iii. avg : avg is used to specify the total average of values of records in that group
+     iv. max : max is used to specify the maximum value of record in that group
+    v. min: min is used to specify the minimum value of record in that group
+
+
+
+
+
+ 
+
+
+
+
+
