@@ -1,0 +1,12 @@
+Introduction to databases
+RDBMS,MySQL,workbench,command line client
+Download & Installation
+sub languages(DDL,DML,DCL,TCL)
+create a table,db,drop,truncate,alter,rename
+insert,update,delete,
+constraints,datatypes
+operators
+clauses(select,from,where,order by,limit,offset,group by,having,distinct)
+aggregate functions(count,sum,avg,max,min,group_concat)
+
+

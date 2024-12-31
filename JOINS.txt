@@ -1,0 +1,45 @@
+JOINS are used to combine two or more tables in the results.
+Different types of joins are
+  i. innerJoin:
+    select column names
+    from table1
+    inner join
+   table2 ON condition
+
+// customers  -- customer_id,first_name,last_name,age,country
+//Orders -- order_id,item,amount,customer_id
+
+WAQ to print customers names along with items they bought
+
+select c.first_name,o.item
+from customers as c
+inner join
+orders as o ON c.customer_id=o.customer_id
+
+left Join: left joins is used to join two tables data such a way that
+all the data from left table along with its corresponding data from 
+right table will be retrieved
+
+select columns
+from table1
+left join
+table2 on condition
+
+Right Join: right join is uses to join two tables data such a way that all the data from right table along with its corresponding data from left 
+table will be retrieved
+
+select columns
+from table1
+right join
+table2 on condition
+
+** MySQL won't support directly Full outer join but can be achieved by combining left join and right join with 'union'
+
+
+
+
+
+
+
+
+
