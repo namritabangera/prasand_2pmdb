@@ -35,7 +35,17 @@ table2 on condition
 
 ** MySQL won't support directly Full outer join but can be achieved by combining left join and right join with 'union'
 
-
+self join:
+self join brings relation within a table to itself
+It involves conditions such a way that single table can be used twice.
+for example: all the managers are also employees so they will be in employees table, all the administration will also be part of staff table, all the toppers are also in the students table,
+Employees
+Eid    Ename        Mid
+101    sita          104
+102    geeta        104
+103    raj          104
+104    manu         105
+105    priya             
 
 
 
