@@ -8,5 +8,5 @@ constraints,datatypes
 operators
 clauses(select,from,where,order by,limit,offset,group by,having,distinct)
 aggregate functions(count,sum,avg,max,min,group_concat)
-
+JOINS(inner join,left join,right join, union, self join)
 

@@ -1,0 +1,82 @@
+Basic SQL Queries:
+
+Select all fields from the customers table.
+
+Example: Retrieve a list of all customers.
+Find all products in the products table that have a quantityInStock greater than 100.
+
+Retrieve the names and credit limits of customers whose credit limit is greater than 50,000.
+
+List all employees whose job title is 'Sales Rep'.
+
+Find the cities where the offices are located. Ensure no duplicate cities are listed.
+
+Retrieve the details of all payments made on '2024-01-01'.
+
+Select the names of all products in the productlines where the product line is 'Motorcycles'.
+
+Find the total number of products available in the products table.
+
+Calculate the total amount paid by customer number 103.
+
+Find all customers who have 'USA' as their country.
+
+Retrieve the details of all orders that have a status of 'Shipped'.
+
+List all employees who report to employee number 1002.
+
+Find the most expensive product in the products table.
+
+Retrieve all products that have buyPrice between 50 and 100, sorted by buyPrice in descending order.
+
+Display all customer names and their sales representatives' names.
+
+List the orders (order number and order date) along with the names of the customers who placed them.
+
+Find all products ordered (product names and quantities) by customer number 112.
+
+Retrieve the details of employees (first and last name) and the city of the office where they work.
+
+List the total payment amount made by each customer.
+
+Display the orderNumber, productName, and total cost (quantityOrdered * priceEach) for all order details.
+
+Find the total amount of payments received from each customer.
+
+List the number of orders placed by each customer.
+
+Find the total number of employees working in each office.
+
+Group products by productLine and calculate the average buyPrice for each product line.
+
+Find the total quantity of each product ordered across all orders.
+
+List all customers sorted by their credit limit in descending order.
+
+Retrieve the names of products with their MSRP sorted in ascending order.
+
+List the total amount of payments received from each customer, sorted by the total amount in descending order.
+
+Display all employees sorted by lastName and firstName in alphabetical order.
+
+List all orders sorted by orderDate in descending order.
+
+Find the highest payment amount made by any customer.
+
+Calculate the average credit limit of all customers.
+
+Count the total number of employees in the company.
+
+Find the total revenue generated from all orders (use priceEach and quantityOrdered).
+
+Calculate the minimum and maximum quantityInStock of all products.
+
+Find all customers whose credit limit is between 10,000 and 50,000.
+
+List all products that have quantityInStock less than 50.
+
+Retrieve all orders where the requiredDate is earlier than the shippedDate.
+
+Find all employees whose email contains the domain 'classicmodelcars.com'.
+
+List all customers whose name starts with 'A' and ends with 'S'.
