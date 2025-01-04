@@ -1,0 +1,19 @@
+-- use school;
+-- create index snameIndex 
+-- on students(sname)
+--  create combined index
+-- create index sfirst_name 
+-- on students(sid,sname);
+-- select *
+-- from students
+-- where sid='12701' and sname='prasad'
+-- drop index sfirst_name 
+-- on students; 
+-- create view HydStudents as
+-- select * from students 
+-- where city="Hyderabad"
+-- select * from hydstudents;
+-- create or replace view hydStudents as
+-- select * from students
+-- where city = 'Hyderabad' or city='mumbai';
+drop view hydStudents;
