@@ -1,0 +1,75 @@
+Index: Indexes are used to speed up the retieval of rows from a database table.Indexing will increase the performance of app/website. There are different indexes
+  i. primary Index: it will be created automatically when primary key is created
+  ii. unique Index: ensures that values in this index column are unique
+  iii. fulltext-index:  used for text based columns with text search functionalities
+  iv. composite index:This index  uses multiple columns to optimize queries
+
+create index index_name on tablename(columname)
+create index index_name on tablename(columname1,columname2)
+
+drop index indexname on tablename;
+
+views: views are temporary or virtual tables that is defined by a query. They don't store the data physically but it presents data stored in one or more tables
+  -- views are used to simplify complex queries
+  -- also used for security such as restriction to 
+      certain columns
+create: create view viewname as query
+you cannot update a view
+you can replace it using create or replace
+drop: drop view viewname
+
+ -- procedures
+ -- functions
+ -- subqueries
+ -- normalization
+ -- tcl,dcl
+
+Procedures in mySQL:
+A stored procedure in mySQL is a set of SQL statements that you can save and reuse
+
+syntax: 
+---------------------------
+  delimiter $$
+    create procedure procedure-name(parameters)
+     begin
+          //query logic
+     end
+  $$ delimiter ;
+--------------------------------
+call procedure-name(argument)
+
+--- in parameters name and data type are required
+
+functions:  function is similar to stored procedure but always returns a value . functions will not be called like stored procedures but will be used in SQL statements like
+select, update,delete etc..,
+
+create function function_name(parameters)
+returns return_type
+begin
+   ///logic
+   return value;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
