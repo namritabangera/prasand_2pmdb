@@ -1,0 +1,32 @@
+stored procedure: it is used to store a logic for reusability: 
+function: it is used to store a logic which returns a result.
+subQueries: A subquery is also called inner Query/nested Query.
+Here two queries will be used to retrieve final result. subquery used to retrieve data on result of main query. main they are used in select,insert,update,delete statemensts
+corelated subqueries means both main and subquery are co related to each other
+    eg: select column
+           from table
+where column = (sub query);
+TCL commands:These commands are used to manage transactions. A transaction is nothing but  a sequence of sql queries that are executed as a single unit
+ 1. commit: commit command is used to save all changes made during current transaction permanently
+   commit ;
+2. rollback:  rollback is used to undo all the changes made in  current transaction. it will reveret db like how it is before transaction
+3. savepoint: it is used to set a point within trasaction to which we can
+rollback;
+
+update students set sname="prasad"
+commit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
