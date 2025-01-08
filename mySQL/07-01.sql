@@ -23,17 +23,21 @@ from students);
 -- WAQ to retrieve names of students who have 
 -- higher marks than the average of students 
 -- from same city
-start transaction
-update
-update
-savepoint basicDetails;
-update
- rollback to savepoint basicDetails
-select sname
-from students as s1
-where marks > (select avg(marks)
-from students as s2
-where s1.city=s2.city);
+use school;
+start transaction;
+update students 
+set sname="raj"
+ where marks="99.99";
+update students 
+set sname="Prasad"
+ where marks="99.99";
+ savepoint basicDetails;
+update students 
+set sname="john"
+ where marks="99.99";
+ rollback to savepoint basicDetails ;
+
+
 -- find the students names whose age is less
 -- than average age of same city
 
