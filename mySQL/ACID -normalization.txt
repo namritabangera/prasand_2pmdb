@@ -1,0 +1,55 @@
+ACID Properties: These are the standards that a transaction follows:
+A transaction means any action on db.
+  i. Atomicity: A transaction must be always single unit
+     like full complete or not complete
+  ii. consistency:A transaction always move from one state to another state. 
+ iii. isolation:  every transaction must be isolated from each other. one transaction should not disturb other transactions
+  iv. durability: once a transaction is commited it is permantly saved in database. even in the system failure
+
+ employee management: 
+i . once you insert a employee, all details should be inserted at a time
+ii. employee status should be displayed as online,offline or stay away
+iii. one employee insertion should not disturb another employee insertion
+iv. even after deletion/system crash, once a commit is done, its permanaent
+
+
+Normalisation:
+Normalisation sets rules to divide a big table into small tables such that 
+RDBMS maintains well.
+sid  sname   scourse   course_fee   email_id   faculty_name  faculty_phno
+
+
+sid sname email_id cid fid
+
+cid scourse course_fee
+
+fid  fname faculty_phno
+
+i. 1NF: every column in table must be atomic
+eg: courses:  html,css,javascript  is invalid
+course1: html, course2:css, course3:js is valid
+
+ii.2NF: table should be in 1NF, all non key columns  are fully dependent on primary key
+
+iii. 3NF: table should be in 2NF. there should not be any transitive depenency.
+
+iv. BCNF: bcnf  requires that every determinant must be a candidate key. boyce-codd. bcnf will be for strong database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
