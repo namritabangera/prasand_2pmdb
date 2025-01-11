@@ -1,0 +1,46 @@
+Mongodb is a popular noSQL, document based ,schemas-less database that is used to store flexible data easily. it provides hight performance and scalability
+
+no SQL means no structured query languages. schema less no schema. document based meansevry detail is a document
+create a student details using mongodb:
+
+{
+    name:"prasad",
+    email:"a@a.com"
+},
+{
+    name:"john"
+    email:'b@b.com
+    phni:3233
+}
+
+
+Here databases are schemas, 
+each table is called collection,
+each value/row of a table is called document
+each column is called  fields
+
+
+
+---- mongodb compass: GUI for mongodb
+---- mongodb shell : CLI for mongodb
+---- pymongo : driver used to connect mongodb with python
+
+to download and install:
+goto link: https://www.mongodb.com/try/download/community,
+download community server
+click next , next, complete,next,next,install
+by default compass will be installed
+goto link: https://www.mongodb.com/try/download/shell
+download mongodb shell
+
+mongodb atlas: cloud database system to setup mongodb
+
+
+
+
+
+
+
+
+
+
