@@ -1,6 +1,8 @@
-Mongodb is a popular noSQL, document based ,schemas-less database that is used to store flexible data easily. it provides hight performance and scalability
+Mongodb is a popular noSQL, document based ,schemas-less database that is used to store flexible data easily. it provides high performance and scalability
+ 
+ eg: ecommerce, social media, gaming
 
-no SQL means no structured query languages. schema less no schema. document based meansevry detail is a document
+no SQL means non structured query languages. schema less means no structure. document based means every detail is a document
 create a student details using mongodb:
 
 {
@@ -22,7 +24,7 @@ each column is called  fields
 
 
 ---- mongodb compass: GUI for mongodb
----- mongodb shell : CLI for mongodb
+---- mongodb shell : CLI for mongodb(mongosh)
 ---- pymongo : driver used to connect mongodb with python
 
 to download and install:
@@ -36,8 +38,10 @@ download mongodb shell
 mongodb atlas: cloud database system to setup mongodb
 
 
-
-
+commands: 
+  -- use database-name; // will make mongodb shifts from one db to another db
+  -- db,database-name.createCollection('collection name')
+  -- db.collection-name.drop()
 
 
 
