@@ -1,0 +1,38 @@
+CRUD
+Create:
+create database: use database-name
+create collection: db.createCollection("name")
+insert a document: we can insert document in two ways:
+    i. insertOne : db.collection-name.insertOne
+({Title:"Bahubali",year:2015})
+    ii. insertMany : db.collection-name.insertMany
+ ([{Title:"Bahubali2",year:2018},{Title:"pushpa",year:2022},
+{Title:"vikram",year:2023}])
+
+Read:
+read all datadases:show dbs;
+read all collections: show collections;
+read all documents: db.collection-name.find()
+read documents with specific filter:db.collection-name.find({"Title":"pushpa"})
+
+update:
+to do update, we need to select document and  change with a condition. There are two possible ways
+  i. updateOne: it updates only first document that matched the condition.
+     db.collection-name.updateOne({"Tilte":"vikram"},{$set:{"Title":"vikram2"}})
+  ii. updateMany: it updates all the documents that matches the condition.
+    db.collection-name.updateMany({"Tilte":"vikram"},{$set:{"Title":"vikram2"}})
+
+delete:
+delete specific documents: db.collection-name.deleteMany{(filterobject)
+db.movies.deleteOne({"Title":"pushpa"}) -- it will delete only first document with title "pushpa"
+db.movies.deleteMany({"Title":"pushpa"}) -- it will delete all documents with title "pushpa"
+
+
+
+
+
+
+
+
+
+

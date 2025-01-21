@@ -1,0 +1,24 @@
+ecommerce, social media , ott
+NoSQL - non structured query language DBMS  eg: mongodb, couchdb,cassandra etc..
+document based structure - every data is a document
+All documents will be inside a collection
+collections will be inside database
+each column data is called field and will be represented as key-value pair
+
+Download and install mongodb server,
+automatically compass will be installed(GUI tool like workbench in mysql)
+Download and install mongodb shell (cli tool like command line client in mysql)
+
+mongodb follows BSON structure response(Binary JSON)
+mongodb compass:
+create a connection and create a database and create a collection
+mongodb shell: "use database-name"
+db.database-name.createCollection("collection-name") --> used for creating collection
+db.collection-name.drop() ---> used for dropping the collection
+
+
+
+
+
+
+
