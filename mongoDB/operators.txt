@@ -1,0 +1,40 @@
+Operators: operators are used to perform certain operations on data. Mongodb provides wide variety of operators. Most used are:
+i.  relational operators:
+     relational operators are used to compare
+     a. $eq: find all products whose category equals to "men's clothing"
+            db.collection-name.find({"category":{$eq:"men's clothing"}})
+     b. $ne:  find all products whose category is not equals to "men's clothing"
+           db.collection-name.find({"category":{$ne:"men's clothing"}})
+     c. $gt: find all products whose price is greater than 200.
+          db.collection-name.find({"price":{$gt:200}})
+     d. $lt: find all products whose price is less than 200.
+         db.collection-name.find({"price":{$lt:200}})
+     e. $gte: find all products whose price is greater than or equals to 200.
+        db.collection-name.find({"price":{$gte:200}})
+    f. $lte: find all products whose price is less than or equals to 200.
+        db.collection-name.find({"price":{$lte:200}})
+
+ii. logical operators: 
+     logical operators are used to combine statements or to make decisions logically
+    a. $and: find all products which are from electronics category and price is greater than 200.
+        db.collection-name.find({$and:[{"category":"electronics"},{"price":{$gt:200}}]})
+    b. $or: find all products which are either from electronics or  men's clothing
+        db.collection-name.find({$or:[{"category":"electronics"},{"category":"men's clothing"}]})
+   c. $nor: find all products which are having price not greater than 200
+        db.collection-name.find({$nor:[{"price":{$gt:200}}]})       
+
+iii. update operators:
+     a. $set:  set is used to update/add a value
+         find a document with id 1 and update its title to laptop
+         db.collection-name.updateOne({"id":1},{$set:{"title":"laptop"}})
+     b. $unset: unset is used remove a field 
+   find a document with id 1 and remove its title field 
+         db.collection-name.updateOne({"id":1},{$unset:{"title":1}})
+    c. $inc:  find all documents and increase their price by ₹100.
+         db.collection-name.updateMany({},{$inc:{"price":100}})
+        find all documents and decrease their price by ₹100
+         db.collection-name.updateMany({},{$inc:{"price":-100}})
+
+
+
+
