@@ -34,7 +34,31 @@ iii. update operators:
          db.collection-name.updateMany({},{$inc:{"price":100}})
         find all documents and decrease their price by ₹100
          db.collection-name.updateMany({},{$inc:{"price":-100}})
+    
+READ Functions:
+i. sort():  sort is used to make the query results in an order
+    find all documents of 'electronics' category and sort them in
+   ascending order of their price
+   db.collection-name.find({"category":"electronics"}).sort({"price":1})
+  1 means ascending order and -1 means descending order
+   find all documents whose price is greater than 400 and sort them according their price in    descending order
+   db.products.find({"price":{$gt:400}}).sort({"price":-1})
 
+To project specific columns
+db.collection-name.find({filterObject},{projectObj})
+
+ii. limit(): limit is used to print limited number of documents of the query
+query.limit(number)
+eg: db.products.find({"price":{$gt:400}}).limit(2)
+iii. skip(): skip is used to skip certain number of document and return an array of remaining documents but it works on the query
+query.skip(number)
+eg: db.products.find({"price":{$gt:400}}).sort({"price":-1}).skip(1)
+iv.count(): count is used to display the number of documents resulted in the query
+query.count()
+v.distinct(): distinct returns an array of different values in a collection field.
+
+
+   
 
 
 
