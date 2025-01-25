@@ -1,0 +1,126 @@
+Agreegation framework:also called agreegation pipelines.
+These Agreegation framework is used to analyze and process the data through multiple stages sequentially.Here each stage receives its input from previous stage's output.
+ 
+Most commonly used stages are
+i. $match: match is used to filter the documents based on a matching pattern
+db.products.agreegate([{$match:{"category":"electronics"}}])
+ii. $project: project is used to refine the documents so that we can choose to include or exclude certain documents.
+db.products.agreegate([{$match:{"category":"electronics"}},{$project:{"title":1,"category":1,"_id":0}}])
+iii. $group: group is used to combine documents based on certain field
+ db.products.aggregate([
+{$match:{$or:[{"category":"electronics"},{"category":"men's clothing"}]}},
+{$project:{"title":1,"category":1,"price":1,"_id":0}},
+{$group:{"_id":"$category","total products":{$count:{}}}}
+])
+
+eg:
+{
+  _id: "$category",
+   maxPrice: {
+    $max: "$price"
+  },
+  minPrice: {
+    $min: "$price"
+  },
+  totalProducts:{
+    $count:{}
+  },
+  avgPrice:{
+   $avg:"$price" 
+  },
+  sumofProducts:{
+    $sum:"$price"
+  }
+}
+
+iv. $sort: sort is used to sort out the input based on ascending or descending order
+1 is for ascending, -1 is for descending
+{$sort:{"fieldname":1}}
+
+v. $limit: limit is used to restrict/limit upto certain number of documents 
+{$limit:10}
+
+vi. $skip: skip is used to skip certain documents
+{$skip:number}
+
+vii. $unwind: unwind is splitting the array of documents into  individual documents
+[{
+"name":"raj",
+"age":50,
+"subjects":["science","maths"]
+},
+{
+"name":"prasad",
+"age":28,
+"subjects":["physics","chemistry"]
+}]
+
+syntax:{
+$unwind:{
+path:<arrayfield>
+}
+}
+
+viii. $lookup: lookup performs left outer join to fetch related data
+from another collection focusing based on a specific field. it creates array of matching documents
+/**
+ * from: The target collection.
+ * localField: The local join field.
+ * foreignField: The target join field.
+ * as: The name for the results.
+ * pipeline: Optional pipeline to run on the foreign collection.
+ * let: Optional variables to use in the pipeline field stages.
+ */
+{
+  from: collection,
+  localField: field,
+  foreignField: field,
+  as: result
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
