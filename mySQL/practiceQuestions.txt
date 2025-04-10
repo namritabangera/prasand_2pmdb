@@ -1,25 +1,25 @@
 Basic SQL Queries:
 
-Select all fields from the customers table.
+1)Select all fields from the customers table.
 
 Example: Retrieve a list of all customers.
-Find all products in the products table that have a quantityInStock greater than 100.
+2)Find all products in the products table that have a quantityInStock greater than 100.
 
-Retrieve the names and credit limits of customers whose credit limit is greater than 50,000.
+3)Retrieve the names and credit limits of customers whose credit limit is greater than 50,000.
 
-List all employees whose job title is 'Sales Rep'.
+4)List all employees whose job title is 'Sales Rep'.
 
-Find the cities where the offices are located. Ensure no duplicate cities are listed.
+5)Find the cities where the offices are located. Ensure no duplicate cities are listed.
 
-Retrieve the details of all payments made on '2024-01-01'.
+6)Retrieve the details of all payments made on '2024-01-01'.
 
-Select the names of all products in the productlines where the product line is 'Motorcycles'.
+7)Select the names of all products in the productlines where the product line is 'Motorcycles'.
 
-Find the total number of products available in the products table.
+8)Find the total number of products available in the products table.
 
-Calculate the total amount paid by customer number 103.
+9)Calculate the total amount paid by customer number 103.
 
-Find all customers who have 'USA' as their country.
+10)Find all customers who have 'USA' as their country.
 
 Retrieve the details of all orders that have a status of 'Shipped'.
 
