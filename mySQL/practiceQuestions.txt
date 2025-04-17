@@ -21,17 +21,17 @@ Example: Retrieve a list of all customers.
 
 10)Find all customers who have 'USA' as their country.
 
-Retrieve the details of all orders that have a status of 'Shipped'.
+11)Retrieve the details of all orders that have a status of 'Shipped'.
 
-List all employees who report to employee number 1002.
+12)List all employees who report to employee number 1002.
 
-Find the most expensive product in the products table.
+13)Find the most expensive product in the products table.
 
-Retrieve all products that have buyPrice between 50 and 100, sorted by buyPrice in descending order.
+14)Retrieve all products that have buyPrice between 50 and 100, sorted by buyPrice in descending order.
 
-Display all customer names and their sales representatives' names.
+15)Display all customer names and their sales representatives' names.
 
-List the orders (order number and order date) along with the names of the customers who placed them.
+16)List the orders (order number and order date) along with the names of the customers who placed them.
 
 Find all products ordered (product names and quantities) by customer number 112.
 
